@@ -170,11 +170,6 @@ header ul a:active {
   box-shadow: inset 0px 2px 2px 0px #ddd;
 }
 
-header p.bio-link {
-  margin-top: 1px;
-  margin-bottom: 1px;
-}
-
 strong {
   color:#222;
   font-weight:700;
