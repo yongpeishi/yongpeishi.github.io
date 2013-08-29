@@ -6,10 +6,10 @@
     <title>{{ page.title }}</title>
     
     <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
 
     <!-- Custom style CSS -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -24,8 +24,11 @@
       <header>
         <h2>{{ site.owner.name }}</h2>
         <p>{{ site.owner.bio }}</p>
-        <p class="bio-link"><a href="https://github.com/{{ site.owner.github }}">Github</a></p>
-        <p class="bio-link"><a href="https://twitter.com/{{ site.owner.twitter }}">Twitter</a></p>
+        <p>
+          I'm on 
+          <a href="https://github.com/{{ site.owner.github }}">Github</a>
+          and <a href="https://twitter.com/{{ site.owner.twitter }}">Twitter</a>
+        </p>
       </header>
 
       <section>
@@ -40,6 +43,6 @@
 
     </div>
 
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="/assets/javascripts/scale.fix.js"></script>
   </body>
 </html>
